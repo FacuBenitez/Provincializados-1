@@ -1,0 +1,95 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Poppins';
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+
+    
+}
+a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 700;
+    font-size:1.2rem;
+
+}
+i{
+    cursor: pointer;
+    font-family: 1.4rem;
+    color:#ddd;
+    font-weight: 800;
+}
+
+
+header{
+width:100%;
+height:100px;
+display: flex;
+justify-content: center;
+justify-content: space-between;
+margin:0;
+background-color: #11052C;
+ background-blend-mode: screen;
+}
+header nav{
+    margin-top: 50px;
+    
+}
+header nav button{
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+    border: none;
+    padding: 10px 5px;
+}
+header nav a{
+    margin: 0 10px;
+}
+
+.puntuacion{
+    margin:25vh auto;
+    width: 700px;
+    height:70vh;
+    box-shadow: 0 5px 10px rgb(0,0,0,0.5);
+    background-color: #e9ecefde;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content:space-evenly;
+    border-radius:2px;
+}
+.puntuacion h1 {
+color: #005bea;
+}
+.puntuacion h2{
+    color: #232323;
+}
+.option-content{
+    width:650px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content: center;
+    margin: 5px auto;
+
+}
+.option-content .opciones{
+    width:100%;
+    text-align: center;
+    background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+    margin-top: 10px;
+    border-radius:2px;
+    font-weight: 600;
+    font-size:2rem;
+    cursor: pointer;
+    
+    position: relative;
+    
+    
+}
+
+.puntuacion i{
+    font-size:46px;
+    color:#11052C;
+}
